@@ -77,6 +77,7 @@
 				71EE222122CF95F00095BD46 /* CocoapodsDemo */,
 				71EE222C22CF95F00095BD46 /* CocoapodsDemoTests */,
 				71EE223E22CF96670095BD46 /* CocoapodsExample */,
+				71EE225122CF9AE90095BD46 /* Document */,
 				71EE222022CF95F00095BD46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,6 +122,13 @@
 				71EE224B22CF96680095BD46 /* Info.plist */,
 			);
 			path = CocoapodsExample;
+			sourceTree = "<group>";
+		};
+		71EE225122CF9AE90095BD46 /* Document */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Document;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

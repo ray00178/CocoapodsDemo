@@ -9,7 +9,7 @@ branches:
   only:
   - master
 script:
-  - xcodebuild -project CocoapodsDemo.xcodeproj -scheme CocoapodsDemo -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project CocoapodsDemo.xcodeproj -scheme CocoapodsDemo -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
 after_success:
   #- bash <(curl -s https://codecov.io/bash)
 notifications:

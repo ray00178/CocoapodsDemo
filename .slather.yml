@@ -1,6 +1,6 @@
 coverage_service: cobertura_xml
 xcodeproj: CocoapodsDemo.xcodeproj
 scheme: CocoapodsDemo
-output_directory: reports
+output_directory: Reports
 ignore:
   - CocoapodsDemoTests/*

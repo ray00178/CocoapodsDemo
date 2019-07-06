@@ -11,6 +11,7 @@ branches:
 script:
   - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project CocoapodsDemo.xcodeproj -scheme CocoapodsDemo -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
 after_success:
+  - slather
   - bash <(curl -s https://codecov.io/bash) -f Reports/cobertura.xml -X coveragepy -X gcov -X xcode
   #- bash <(curl -s https://codecov.io/bash) -t {YOUR-TOKEN-HERE}
 notifications:

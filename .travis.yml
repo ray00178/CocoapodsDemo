@@ -14,7 +14,6 @@ after_success:
   - slather
   - bash <(curl -s https://codecov.io/bash) -X coveragepy -X gcov -X xcode
   #- bash <(curl -s https://codecov.io/bash) -f Reports/cobertura.xml -X coveragepy -X gcov -X xcode
-  #- bash <(curl -s https://codecov.io/bash) -t {YOUR-TOKEN-HERE}
 notifications:
   email:
     recipients:

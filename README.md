@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/ray00178/CocoapodsDemo.svg?branch=master)](https://travis-ci.org/ray00178/CocoapodsDemo)
+[![Build Status](https://travis-ci.org/ray00178/CocoapodsDemo.svg?branch=master)](https://travis-ci.org/ray00178/CocoapodsDemo) [![codecov](https://codecov.io/gh/ray00178/CocoapodsDemo/branch/master/graph/badge.svg)](https://codecov.io/gh/ray00178/CocoapodsDemo)

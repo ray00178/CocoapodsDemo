@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/ray00178/CocoapodsDemo.svg?branch=master)](https://travis-ci.org/ray00178/CocoapodsDemo)

@@ -32,4 +32,12 @@ class CocoapodsDemoTests: XCTestCase {
         
         XCTAssertFalse("065748523".isValidPhone)
     }
+    
+    func testReplace() {
+        XCTAssert("Demo".replace(at: "e", to: "o") == "Domo")
+        XCTAssert("Apple".replace(at: "p", to: "q") == "Aqqle")
+        XCTAssert("Park".replace(at: "a", to: " ") == "P rk")
+        
+        XCTAssertFalse("XCode".replace(at: "C", to: "a") != "Xaode")
+    }
 }

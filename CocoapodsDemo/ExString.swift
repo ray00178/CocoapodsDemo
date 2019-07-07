@@ -19,4 +19,15 @@ extension String {
             return matches.count > 0
         }
     }
+    
+    
+    /// 替換文字
+    ///
+    /// - Parameters:
+    ///   - at: 原來文字
+    ///   - to: 替換文字
+    /// - Returns:
+    func replace(at: String, to: String) -> String {
+        return self.replacingOccurrences(of: at, with: to)
+    }
 }
